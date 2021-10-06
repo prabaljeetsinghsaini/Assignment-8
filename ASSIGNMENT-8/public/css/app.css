@@ -1,0 +1,74 @@
+body{
+    background-color:rgb(140, 140, 228);
+}
+section{
+    margin:50px auto;
+    background-color:#81c0a4;
+    border:2px solid #ccc;
+    width:600px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+li{
+    text-align: center;
+    padding: 10px;
+}
+table{
+    margin:auto;
+    background-color: antiquewhite;
+    text-align: center;
+    border-collapse: collapse;
+    width:75%;
+}
+td{
+    border: 2px solid rgb(199, 85, 85);
+    padding:5px;
+    width: 70%;
+    text-align: center;
+}
+#lastrow{
+    border-bottom: 5px solid black;
+}
+#firstrow{
+    border-top: 2.5px solid black;
+}
+#enter{
+    width: 100px;
+    height:50px;
+    color: white;
+    background-color: #f7786b;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+#enter:hover{
+    background-color: #c94c4c;
+}
+#delete{
+    background-color: rgb(212, 41, 41);
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    color:rgb(59, 163, 102);
+    border-radius: 10px;
+}
+#delete:hover{
+    background-color: rgb(177, 76, 9);
+}
+#exit{
+    background-color: rgb(187, 142, 58);
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+    color:rgb(21, 22, 21);
+    border-radius: 10px;
+}
+#exit:hover{
+    background-color: rgb(223, 160, 45);
+}
+#submit{
+    background-color: rgb(39, 221, 182);
+    border-radius: 5px;
+    height: 50px;
+}
